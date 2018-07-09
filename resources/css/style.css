@@ -1,0 +1,36 @@
+/* Document */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header with Nav Bar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  padding: 0 10px;
+}
+
+#logo_image {
+  height: 50px;
+}
+
+nav a {
+  color: seashell;
+  padding-left: 20px;
+}
