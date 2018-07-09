@@ -21,9 +21,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid seashell;
+  border-bottom 1px solid seashell;
   height: 69px;
   padding: 0 10px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #logo_image {
@@ -33,4 +37,20 @@ header {
 nav a {
   color: seashell;
   padding-left: 20px;
+}
+
+/* Landing Page Greeting */
+
+#mission {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 69px auto 0 auto;
+}
+
+#mission_headlines {
+  background-color: black;
+  width: 100%;
 }
