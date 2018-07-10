@@ -21,7 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom 1px solid seashell;
+  border-bottom: 1px solid seashell;
   height: 69px;
   padding: 0 10px;
   background-color: black;
@@ -53,4 +53,23 @@ nav a {
 #mission_headlines {
   background-color: black;
   width: 100%;
+}
+
+/* Featured Products */
+
+#month_featured {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#featured_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea_spotlight img {
+  height: 200px;
+  width: 300px;
+  margin: 0 10px;
 }
