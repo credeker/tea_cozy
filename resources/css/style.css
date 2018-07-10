@@ -102,3 +102,14 @@ nav a {
   margin: 0 20px;
   border: 1px solid white;
 }
+
+/* Footer*/
+
+#contact_info{
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
