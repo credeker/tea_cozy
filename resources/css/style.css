@@ -73,3 +73,32 @@ nav a {
   width: 300px;
   margin: 0 10px;
 }
+
+/* Locations */
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/img-locations-background.jpg");
+  margin: 0 auto;
+}
+
+#locations h2 {
+  margin-bottom: 15px;
+}
+
+#location_boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px;
+  border: 1px solid white;
+}
